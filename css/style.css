@@ -165,19 +165,19 @@ h1, h2, h3,
 
 .artist-card {
    /* Uses black variable */
-   background-color: var(--bf-black);
+   --bs-card-bg: var(--bf-black);
    
 }
 
 .artist-card:hover {
    /* Uses charcoal variable */
-    background-color: var(--bf-charcoal); 
+   --bs-card-bg: var(--bf-charcoal); 
 
 }
 
 .artist-card:has(.headliner-badge) {
    /* Uses pink variable */
-   background-color: var(--bf-pink);
+   --bs-card-bg: var(--bf-pink);
 
 }
 
